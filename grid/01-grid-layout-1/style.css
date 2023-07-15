@@ -45,3 +45,27 @@ body, html {
 .footer {
   background-color: #393f4d;
 }
+
+
+
+
+
+/* Below are my changes */
+.container{
+  display: grid;
+  grid-template-columns: 300px 1200px ;
+  grid-template-rows: 60px 60px 450px 60px;
+  gap:15px;
+}
+
+
+.header{
+  grid-column:1/-1 ;
+}
+
+.sidebar{
+  grid-row: 2/-2
+}
+.footer{
+  grid-column: 1/-1;
+}
